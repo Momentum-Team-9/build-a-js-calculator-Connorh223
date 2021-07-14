@@ -1,0 +1,142 @@
+.display {
+
+    height: 230px;
+    width: 380px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 120;
+}
+
+
+
+
+
+.button {
+    
+    
+}
+
+.gray {
+    background-color: lightgray;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.red {
+    background-color:salmon;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+
+.orange {
+    background-color:orange;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+
+.yellow {
+    background-color:gold;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+
+.green {
+    background-color: darkseagreen;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+
+.blue {
+    background-color: steelblue;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.indigo {
+    background-color: mediumslateblue;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.violet {
+    background-color: orchid;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.lawn {
+    background-color: lawngreen;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.coral {
+    background-color: lightcoral;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.plus {
+    background-color: wheat;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
