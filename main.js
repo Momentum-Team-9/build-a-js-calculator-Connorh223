@@ -88,3 +88,60 @@ num9.addEventListener('click', function (event) {
   console.log(event.target.innerText)
   console.log('button clicked')
 })
+
+const addition = document.getElementById('addition')
+console.log(addition)
+
+addition.addEventListener('click', function (event) {
+  display.innerText += event.target.innerText
+  console.log(event.target.innerText)
+  console.log('button clicked')
+})
+
+const subtract = document.getElementById('subtract')
+console.log(subtract)
+
+subtract.addEventListener('click', function (event) {
+  display.innerText += event.target.innerText
+  console.log(event.target.innerText)
+  console.log('button clicked')
+})
+
+const divide = document.getElementById('divide')
+console.log(divide)
+
+divide.addEventListener('click', function (event) {
+  display.innerText += event.target.innerText
+  console.log(event.target.innerText)
+  console.log('button clicked')
+})
+
+const multiply = document.getElementById('multiply')
+console.log(multiply)
+
+multiply.addEventListener('click', function (event) {
+  display.innerText += event.target.innerText
+  console.log(event.target.innerText)
+  console.log('button clicked')
+})
+
+const equal = document.getElementById('equal')
+console.log(equal)
+
+equal.addEventListener('click', function (event) {
+  display.innerText += event.target.innerText
+  console.log(event.target.innerText)
+  console.log('button clicked')
+})
+
+
+function setDisplay(displayText){
+    display.innerText = displayText
+}
+
+
+
+
+document.querySelector(".clear").addEventListener('click', function(){
+    console.log("CLEAR")
+})

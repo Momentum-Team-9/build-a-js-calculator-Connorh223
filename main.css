@@ -11,10 +11,13 @@
 
 
 
-.button {
-    
-    
+.clear {
+    height: 30px;
+    width: 70px;
 }
+    
+    
+    
 
 .gray {
     background-color: lightgray;
@@ -25,6 +28,8 @@
     margin: 10px;
     padding: 20px;
     font-size: 40px;
+    display: flex;
+    display: inline-block;
 }
 
 .red {
@@ -36,6 +41,8 @@
     margin: 10px;
     padding: 20px;
     font-size: 40px;
+    display: flex;
+    display: inline-block;
 }
 
 
@@ -48,6 +55,8 @@
     margin: 10px;
     padding: 20px;
     font-size: 40px;
+    display: flex;
+    display: inline-block;
 }
 
 
@@ -60,6 +69,8 @@
     margin: 10px;
     padding: 20px;
     font-size: 40px;
+    display: flex;
+    display: inline-block;
 }
 
 
@@ -72,6 +83,8 @@
     margin: 10px;
     padding: 20px;
     font-size: 40px;
+    display: flex;
+    display: inline-block;
 }
 
 
@@ -84,6 +97,8 @@
     margin: 10px;
     padding: 20px;
     font-size: 40px;
+    display: flex;
+    display: inline-block;
 }
 
 .indigo {
@@ -95,6 +110,8 @@
     margin: 10px;
     padding: 20px;
     font-size: 40px;
+    display: flex;
+    display: inline-block;
 }
 
 .violet {
@@ -106,10 +123,12 @@
     margin: 10px;
     padding: 20px;
     font-size: 40px;
+    display: flex;
+    display: inline-block;
 }
 
-.lawn {
-    background-color: lawngreen;
+.slate {
+    background-color:slategrey;
     height: 150px;
     width: 150px;
     size: 50px;
@@ -117,6 +136,8 @@
     margin: 10px;
     padding: 20px;
     font-size: 40px;
+    display: flex;
+    display: inline-block;
 }
 
 .coral {
@@ -128,6 +149,8 @@
     margin: 10px;
     padding: 20px;
     font-size: 40px;
+    display: flex;
+    display: inline-block;
 }
 
 .plus {
@@ -139,4 +162,59 @@
     margin: 10px;
     padding: 20px;
     font-size: 40px;
+    display: flex;
+    display: inline-block;
 }
+
+.minus {
+    background-color:lightseagreen;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+    display: flex;
+    display: inline-block;
+}
+
+.division {
+    background-color:mediumvioletred;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+    display: flex;
+    display: inline-block;
+}
+
+.times {
+    background-color:pink;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+    display: flex;
+    display: inline-block;
+}
+
+.equals {
+    background-color:lightsteelblue;
+    height: 150px;
+    width: 150px;
+    size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+    display: flex;
+    display: inline-block;
+}
+
