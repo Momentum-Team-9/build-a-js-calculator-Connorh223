@@ -96,6 +96,7 @@ addition.addEventListener('click', function (event) {
   display.innerText += event.target.innerText
   console.log(event.target.innerText)
   console.log('button clicked')
+  display.innerText=eval(display.innerText)
 })
 
 const subtract = document.getElementById('subtract')
@@ -105,6 +106,7 @@ subtract.addEventListener('click', function (event) {
   display.innerText += event.target.innerText
   console.log(event.target.innerText)
   console.log('button clicked')
+  display.innerText=eval(display.innerText)
 })
 
 const divide = document.getElementById('divide')
@@ -114,6 +116,7 @@ divide.addEventListener('click', function (event) {
   display.innerText += event.target.innerText
   console.log(event.target.innerText)
   console.log('button clicked')
+  display.innerText=eval(display.innerText)
 })
 
 const multiply = document.getElementById('multiply')
@@ -123,25 +126,26 @@ multiply.addEventListener('click', function (event) {
   display.innerText += event.target.innerText
   console.log(event.target.innerText)
   console.log('button clicked')
+  display.innerText=eval(display.innerText)
 })
 
 const equal = document.getElementById('equal')
 console.log(equal)
 
 equal.addEventListener('click', function (event) {
-  display.innerText += event.target.innerText
-  console.log(event.target.innerText)
+//   display.innerText += event.target.innerText
+//   console.log(event.target.innerText)
   console.log('button clicked')
+  display.innerText=eval(display.innerText)
 })
 
 
-function setDisplay(displayText){
-    display.innerText = displayText
-}
+const cleared = document.getElementById('cleared')
+console.log(cleared)
 
-
-
-
-document.querySelector(".clear").addEventListener('click', function(){
-    console.log("CLEAR")
+cleared.addEventListener('click', function (event) {
+  display.innerText = event.target.innerText
+  console.log(event.target.innerText)
+  console.log('button clicked')
+  display.innerText=eval(display.innerText)
 })
